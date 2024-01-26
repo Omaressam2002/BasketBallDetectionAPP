@@ -1,16 +1,13 @@
 # BasketBallDetectionAPP
 
-<<<<<<< HEAD
-- this app classifies players, basketballs , and hoops. also draws boundary boxes around them with the confidence of the prediction above the box (0 lowest -> 1 highest).
-- the detection is done using a neural network with a YOLOv1 inspired architecture, trained and implemented   from scratch. code and model trainig details : liiinkkkkk.
+**Project description** :
+- this MacOS application detects basketballs, players, and hoopin pictures.
+- the user interface is written in Swift.
+- the integeration between the detection model and the user interface was implemented using a REST API written in python's Django Framework.
+- the detection is done using a neural network with a YOLOv1 inspired architecture, trained and implemented  from scratch
+- Trainig details in the original model repo : https://github.com/Omaressam2002/YOLOV1 .
 
-- BasketBallDetection folder contains swift code for the user interface
+**Test video** : https://youtu.be/VRyyayQanQM
 
-- MLAPI folder contains the django REST API and the detection rlated method methods
-
-- video youtube lil project.
-
-sowarr
-=======
-videolink : https://youtu.be/VRyyayQanQM
->>>>>>> 15c2c0b557443cf3e2f91df573c6b3e5779ca708
+**to use download the detection model and place it in the MLAPI directory**
+Model link: https://drive.google.com/file/d/1ZxVegVUlBxFkqVk7Vt6si7QHMMFHbKGc/view?usp=sharing
