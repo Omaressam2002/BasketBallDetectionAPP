@@ -1,7 +1,7 @@
 # BasketBallDetectionAPP
 
 - **Project description** :
-  - this MacOS application detects basketballs, players, and hoopin pictures.
+  - this MacOS application detects basketballs, players, and hoops in pictures.
   - the user interface is written in Swift.
   - the integeration between the detection model and the user interface was implemented using a REST API written in python's Django Framework.
   - the detection is done using a neural network with a YOLOv1 inspired architecture, trained and implemented  from scratch
